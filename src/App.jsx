@@ -3,7 +3,7 @@ import { useState, useEffect, useRef } from "react";
 const font = `@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap');`;
 
 // Update this once you have a sales page / checkout link for the system
-const SYSTEM_URL = "https://www.instagram.com/monty_online_";
+const SYSTEM_URL = "https://ig.me/m/monty_online_";
 const IG_HANDLE = "@monty_online_";
 
 // Where captured emails get sent. Point this at your form endpoint
@@ -634,7 +634,7 @@ CTA: [Two sentences. First sentence: a direct, confident statement about the sys
                 </p>
               </div>
               <button className="cta-btn" style={{ marginTop: 8 }} onClick={() => window.open(SYSTEM_URL, "_blank")}>
-                Follow {IG_HANDLE} →
+                Message Me On Instagram →
               </button>
               <button className="restart-btn" onClick={restart}>↺ Try the scan again</button>
             </div>
@@ -703,7 +703,7 @@ CTA: [Two sentences. First sentence: a direct, confident statement about the sys
                   <div className="cta-feature"><span className="dot">●</span> Step-by-step launch checklist</div>
                 </div>
                 <button className="cta-btn" onClick={() => window.open(SYSTEM_URL, "_blank")}>
-                  Get The System →
+                  Message Me On Instagram →
                 </button>
                 <p className="handle-tag">Built by <b>{IG_HANDLE}</b> — follow for behind-the-scenes & updates</p>
               </div>
